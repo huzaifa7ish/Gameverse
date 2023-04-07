@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto",sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,147,233,0.7),rgba(47, 89, 84, 0.2)),url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 490px;
+    width: 800px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background: rgb(68,71,73);
+    background: linear-gradient(52deg, rgba(68,71,73,1) 0%, rgba(68,71,73,1) 100%);
+}
+.form{
+    display: flex;
+     flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.first-class{
+    padding: 7px;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    background: rgb(68,71,73);
+    border: 1px solid transparent;
+    border-bottom: 1px solid white;
+}
+::placeholder{
+    color: white;
+}
+#Submit{
+    padding: 7px;
+    margin-top: 20px;
+    width: 50%;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    outline: none;
+    border-radius: 5px;
+}
+#Submit:hover{
+    cursor: pointer;
+    background: rgb(101,213,255);
+background: linear-gradient(52deg, rgba(101,213,255,1) 0%, rgba(209,123,230,1) 100%);
+}
+h1{
+    padding: 20px;
+    margin-top: 10px;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+label{
+    color: whitesmoke;
+}
+/* a:link{
+text-decoration: none;
+color: whitesmoke;
+margin-top: 40px;
+
+} */
+
+
+ a{
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+ }
